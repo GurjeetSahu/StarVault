@@ -25,8 +25,8 @@ A **local solution to organize your GitHub stars**. Built for developers who wan
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/awesomeness.git
-   cd awesomeness
+   git clone https://github.com/GurjeetSahu/StarVault.git
+   cd StarVault
    ```
 
 2. **Install dependencies:**
