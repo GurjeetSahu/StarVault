@@ -2,6 +2,8 @@
 
 <img src="logo.png" width="100" height="100" />
 <br></br>
+<a href="https://www.producthunt.com/products/starvault/launches/starvault?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-starvault" target="_blank" rel="noopener noreferrer"><img alt="StarVault - Manage your GitHub Stars with ease | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1066146&amp;theme=light&amp;t=1776774516301"></a>
+<br></br>
 # StarVault
 
 A **local solution to organize your GitHub stars**. Built for developers who want more ways to categorize and manage their starred repositories on their own machine.
