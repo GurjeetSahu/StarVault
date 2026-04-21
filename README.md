@@ -46,7 +46,7 @@ A **local solution to organize your GitHub stars**. Built for developers who wan
    On `.env.local` file:
 
    ```env
-   PAT=your_token
+   PAT=<YOUR PAT TOKEN>
    ```
 
 5. **Run the app:**
