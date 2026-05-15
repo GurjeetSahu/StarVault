@@ -1,14 +1,21 @@
-import { NextResponse } from "next/server"
+import { NextResponse } from "next/server";
 import { gql } from "graphql-request";
 import { GraphQLClient } from "graphql-request";
+import { getPat } from "@/lib/env";
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const search = searchParams.get("cursor");
   const endpoint = "https://api.github.com/graphql";
+  const token = await getPat();
+
+  if (!token) {
+    return NextResponse.json({ error: "GitHub GITHUB_PAT is not configured." }, { status: 500 });
+  }
+
   const headers = {
     headers: {
-      authorization: `Bearer ${process.env.PAT}`,
+      authorization: `Bearer ${token}`,
     },
   };
   const graphqlClient = new GraphQLClient(endpoint, headers);

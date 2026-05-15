@@ -111,6 +111,7 @@ export default function CategoryTree() {
   useState(() => {
     let isMounted = true;
     repoManager.getCategoryTreeFromDexie().then((data) => {
+      //WORK HERE TO-DO
       if (isMounted) setCategories(data);
     });
     return () => {
